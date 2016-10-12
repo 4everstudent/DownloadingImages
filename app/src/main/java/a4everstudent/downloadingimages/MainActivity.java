@@ -8,8 +8,8 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
 
-    public void showLog(View view){
-        Log.i("Button clicked!", "Yes!");
+    public void downloadImage(View view){
+        Log.i("Interaction:", "Button clicked!");
 
     }
     @Override

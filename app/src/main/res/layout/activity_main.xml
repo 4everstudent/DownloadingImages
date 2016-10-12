@@ -11,19 +11,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="a4everstudent.downloadingimages.MainActivity">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Click Me!"
+        android:text="Download Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
+        android:onClick="downloadImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:id="@+id/imageView"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
